@@ -13,3 +13,19 @@ private Implementacion (boolean apagarRadio, boolean guardarEstacion, boolean ca
     this.cambiarFM = cambiarFM;
     this.cambiarAM = cambiarAM;
 }
+
+public boolean ApagarRadio() {
+    return apagarRadio;
+}
+public boolean GuardarEstacion() {
+    return guardarEstacion;
+}
+public boolean CargarEstacion() {
+    return cargarEstacion;
+}
+public boolean CambiarFM() {
+    return cambiarFM;
+}
+public boolean CambiarAM() {            
+    return cambiarAM;
+}                                                                       
