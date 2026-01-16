@@ -1,12 +1,15 @@
 public class Implementacion {
-    public private boolean apagarRadio;
-    public private boolean avanzarEstacion;
-    public private boolean guardarEstacion;
-    public private  boolean cargarEstacion;
-    public private boolean cambiarFM; 
-    public private boolean cambiarAM;
+    private public  boolean apagarRadio;
+    private public  boolean guardarEstacion;
+    private public boolean cargarEstacion;
+    private public  boolean cambiarFM; 
+    private public boolean cambiarAM;   
+}
 
-
-
-    
+private Implementacion (boolean apagarRadio, boolean guardarEstacion, boolean cargarEstacion, boolean cambiarFM, boolean cambiarAM) {
+    this.apagarRadio = apagarRadio;
+    this.guardarEstacion = guardarEstacion;
+    this.cargarEstacion = cargarEstacion;
+    this.cambiarFM = cambiarFM;
+    this.cambiarAM = cambiarAM;
 }
