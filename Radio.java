@@ -1,7 +1,7 @@
 
-    public interface Rdio {
-    void prenderRdio (); 
-    void apagarRdio ();
+public interface Radio {
+    void prenderRadio (); 
+    void apagarRadio ();
     void avanzarEstacion ();
     void guardarEstacion ();    
     void cargarEstacion ();
